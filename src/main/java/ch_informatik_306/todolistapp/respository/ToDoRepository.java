@@ -11,6 +11,7 @@ import java.util.List;
 @ApplicationScoped
 public class ToDoRepository {
 
+
     @PersistenceContext
     private EntityManager em;
 

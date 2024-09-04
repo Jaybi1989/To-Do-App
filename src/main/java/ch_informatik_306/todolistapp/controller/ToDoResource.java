@@ -22,6 +22,7 @@ public class ToDoResource {
         return service.list();
     }
 
+
     @GET
     @Path("/{id}")
     public ToDo find(@PathParam("id") Long id) {

@@ -12,6 +12,7 @@ public class ToDoBean {
     private List<ToDo> todoList = new ArrayList<>();
     private String newTitle;
 
+
     public List<ToDo> getTodoList() {
         return todoList;
     }
